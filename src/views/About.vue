@@ -17,7 +17,7 @@
           </div>
         </div>
       </div>
-      <barber />
+      <barber class="bg-black" />
       <about />
       <fooTer />
     </div>
