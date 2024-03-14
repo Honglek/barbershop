@@ -53,7 +53,7 @@
           </div>
         </div>
       </div>
-      <div><about /></div>
+      <div><barber /></div>
       <div><service /></div>
       <div><gallery :images="images" /></div>
       <div><frmContact /></div>
@@ -65,7 +65,7 @@
 <script>
 import navbar from "@/components/navbar";
 import fooTer from "@/components/fooTer";
-import about from "@/components/about";
+import barber from "@/components/barber";
 import service from "@/components/service";
 import gallery from "@/components/gallery";
 import frmContact from "@/components/frmContact";
@@ -76,7 +76,7 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 export default {
-  components: { navbar, fooTer, about, service, gallery, frmContact },
+  components: { navbar, fooTer, barber, service, gallery, frmContact },
   setup() {
     const text1 = ref(null);
     const text2 = ref(null);
