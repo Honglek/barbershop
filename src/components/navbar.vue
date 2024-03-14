@@ -116,20 +116,24 @@ export default {
   },
   mounted() {
     // Retrieve the active page from localStorage when the component is mounted
-    this.activePage = localStorage.getItem("activePage") || "";
+    this.setActivePageByUrl();
   },
   methods: {
-    setActivePage(pageId) {
-      if (pageId === "home") {
-        // if the clicked page is "Home"
-        this.activePage = "home"; // set active page to "home"
-        // Store the active page in localStorage
-        localStorage.setItem("activePage", "home");
-      } else {
-        this.activePage = pageId;
-        // Store the active page in localStorage
-        localStorage.setItem("activePage", pageId);
+    setActivePageByUrl() {
+      const currentPath = window.location.pathname;
+      for (const item of this.navItems) {
+        if (item.href === currentPath) {
+          this.activePage = item.id;
+          return;
+        }
       }
+      // If the current path doesn't match any navigation item, default to home
+      this.activePage = "home";
+    },
+    setActivePage(pageId) {
+      this.activePage = pageId;
+      // Store the active page in localStorage
+      localStorage.setItem("activePage", pageId);
     },
   },
   setup() {
