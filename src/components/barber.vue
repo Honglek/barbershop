@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full bg-black text-white py-4 sm:py-8 md:py-10 lg:py-20">
+  <div class="w-full bg-black text-white py-4 sm:py-8 md:py-10 lg:pt-20 lg:py-0">
     <div
       class="w-11/12 m-auto text-center text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl"
     >
