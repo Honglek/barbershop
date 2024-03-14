@@ -9,7 +9,7 @@
       <div
         class="uppercase font-serif font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
       >
-        SOME IMAGES FROM OUR BARBER<span class="text-orange-500">SHOP</span>
+        SOME IMAGES FROM OUR BARBERSHOP<span class="text-orange-500">GOLD</span>
       </div>
     </div>
     <div class="w-full md:pb-5 lg:pb-7">
