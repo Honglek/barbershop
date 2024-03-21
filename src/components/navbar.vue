@@ -8,7 +8,7 @@
           <span
             class="prevent-select p-2 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl fw-bold font-serif cursor-pointer"
             ><a href="/" @click="setActivePage('home')"
-              >Barbershop<span class="text-orange-500"> Gold</span></a
+              >Barber<span class="text-orange-500">Shop</span></a
             >
           </span>
           <!-- button toggle small screen -->
