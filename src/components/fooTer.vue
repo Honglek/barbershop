@@ -8,7 +8,7 @@
         <div
           class="prevent-select text-white font-serif font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl"
         >
-          Barbershop<span class="text-orange-500"> Gold</span>
+          Barber<span class="text-orange-500">Shop</span>
         </div>
         <div class="text-gray-400">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
