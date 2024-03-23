@@ -62,7 +62,7 @@ export default {
   setup() {
     const type = ref([
       {
-        name: "Hair Cutting Services",
+        name: "Hair Cutting",
         children: [
           {
             name: "MEN’S CUTS",
@@ -83,7 +83,7 @@ export default {
         ],
       },
       {
-        name: "Hair Color Services",
+        name: "Hair Color",
         children: [
           {
             name: "ALL OVER COLOR",
@@ -116,7 +116,7 @@ export default {
         ],
       },
       {
-        name: "Hair Styling Services",
+        name: "Hair Styling",
         children: [
           {
             name: "BLOW OUT",
