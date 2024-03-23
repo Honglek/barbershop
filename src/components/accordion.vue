@@ -62,36 +62,73 @@ export default {
   setup() {
     const type = ref([
       {
-        name: "ForHair",
+        name: "Hair Cutting Services",
         children: [
           {
-            name: "Trim your Hair1",
-            price: "20$",
+            name: "MEN’S CUTS",
+            price: "$40+",
           },
           {
-            name: "Trim your Hair1",
-            price: "25$",
+            name: "CHILDRENS CUTS",
+            price: "$25+",
           },
           {
-            name: "Trim your Hair1",
-            price: "30$",
+            name: "BANG/NECK TRIMS",
+            price: "$15+",
+          },
+          {
+            name: "SPECIALTY HAIRCUTTING",
+            price: "$65+",
           },
         ],
       },
       {
-        name: "Forbeard",
+        name: "Hair Color Services",
         children: [
           {
-            name: "Trim your Hair2",
-            price: "35$",
+            name: "ALL OVER COLOR",
+            price: "$80+",
           },
           {
-            name: "Trim your Hair2",
-            price: "40$",
+            name: "PARTIAL FOIL HIGHLIGHTS",
+            price: "$100+",
           },
           {
-            name: "Trim your Hair2",
-            price: "45$",
+            name: "FULL FOIL",
+            price: "$115+",
+          },
+          {
+            name: "ACE FRAME HIGHLIGHTS",
+            price: "$75+",
+          },
+          {
+            name: "BALAYAGE/FOILAYAGE",
+            price: "$155+",
+          },
+          {
+            name: "GLOSS",
+            price: "$50+",
+          },
+          {
+            name: "DOUBLE PROCESS COLOR",
+            price: "$135+",
+          },
+        ],
+      },
+      {
+        name: "Hair Styling Services",
+        children: [
+          {
+            name: "BLOW OUT",
+            price: "$30+",
+          },
+          {
+            name: "UPDO & SPECIAL OCCASIONS",
+            price: "$65+",
+          },
+          {
+            name: "BRIDAL STYLE",
+            price: "$75+",
           },
         ],
       },
