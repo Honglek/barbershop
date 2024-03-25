@@ -22,7 +22,7 @@
         <div class="w-3/12 h-auto rounded-lg">
           <div class="w-full">
             <img
-              class="w-full h-32 sm:h-44 md:h-56 lg:h-72 xl:h-96 object-cover object-center"
+              class="w-full h-auto object-cover object-center"
               src="@/assets/Images/14.jpg"
             />
           </div>
@@ -38,7 +38,7 @@
         <div class="w-3/12 h-auto rounded-lg">
           <div class="w-full">
             <img
-              class="w-full h-32 sm:h-44 md:h-56 lg:h-72 xl:h-96 object-cover object-center"
+              class="w-full h-auto object-cover object-center"
               src="@/assets/Images/16.jpg"
             />
           </div>
@@ -53,7 +53,7 @@
         <div class="w-3/12 h-auto rounded-lg">
           <div class="w-full">
             <img
-              class="w-full h-32 sm:h-44 md:h-56 lg:h-72 xl:h-96 object-cover object-center"
+              class="w-full h-auto object-cover object-center"
               src="@/assets/Images/15.jpg"
             />
           </div>
